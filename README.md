@@ -16,3 +16,8 @@
 ## Image collection :-
 * All class diseses images are dowloaded in kaggle website
 * Dowload Image dataset [click here](https://www.kaggle.com/datasets/emmarex/plantdisease).
+* Created separate directory where i downloaded all images 
+* Sturuture of directory ---> Tomato images
+                                - Late blight leaf
+                                - Early blight leaf
+                                - Healthy leaf
