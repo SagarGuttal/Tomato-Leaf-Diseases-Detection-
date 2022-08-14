@@ -46,3 +46,7 @@ Three classes are -> **'Tomato_Early_blight', 'Tomato_Late_blight', 'Tomato_heal
 * Ramaining dataset for testing and validation ()
 * we take 14 batches for validation (14*32)
 * we take 14 bathces for final testing(14*32)
+
+## Convolutional Neural Network
+* A convolution is the simple application of a filter to an input that results in an activation. Repeated application of the same filter to an input results in a map of activations called a feature map, indicating the locations and strength of a detected feature in an input, such as an image.
+* 
