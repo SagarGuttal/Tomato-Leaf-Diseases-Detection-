@@ -12,3 +12,7 @@
 6. Training phase of neural network
 7. Evaluatate neural network with testing set
 8. Save the model
+
+## Image collection :-
+* All class diseses images are dowloaded in kaggle website
+* Dowload Image dataset [click here](https://www.kaggle.com/datasets/emmarex/plantdisease).
