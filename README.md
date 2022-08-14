@@ -33,8 +33,16 @@ Three classes are -> **'Tomato_Early_blight', 'Tomato_Late_blight', 'Tomato_heal
    1. Image Resizing:  The dimensions of the image are brought equal to the dimensions of the training images by using the computer vision cv2.resize method, Image resizing is a crucial step as the pixel values may change if the dimensions of all the training as well as the testing images are not the same. 
    2. Image rescaling: The  smoothening of the image renders the pixel values to  gradually  even  out  to  all the points of the image so as to allow  a smooth image. Along with this the image also gets converted from colored to grayscale image using the function „RGB2GRAY ()‟. 
    3. Noise  Filtering: The noise is the unwanted extras that  are  present in  the  images that make feature determination  and  extraction  difficult.  Thus  the  process  of  noise  filtering  involves  removal  or averaging of the  pixel  values that  add  noise to the  image. The process  used  in our system  to  ensure noise removal is Median Filter.
-   4. Some images are removed by manually.
+   4. Data augmentation: Data augmentation is the technique of increasing the size of data used for training a model. For reliable predictions, the deep learning models often require a lot of training data, which is not always available. Therefore, the existing data is augmented in order to make a better generalized model
+   5. Some images are removed by manually.
    
 
 ## Splitting images into training, validation, testing set
-* 
+* 80 % of Images set goes for training
+* 10 % of Images set goes for validation
+* 10 % of Images set goes for testing our final model
+* Total 144 batches of datasets having total 4568.
+* we take 114 batches of dataset for training (114 * 32)
+* Ramaining dataset for testing and validation ()
+* we take 14 batches for validation (14*32)
+* we take 14 bathces for final testing(14*32)
