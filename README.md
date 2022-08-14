@@ -66,7 +66,9 @@ Three classes are -> **'Tomato_Early_blight', 'Tomato_Late_blight', 'Tomato_heal
 
 ## Model performance
 *  Accuracy of model with training images and testing images
+
 ![Accuracy of model](https://github.com/SagarGuttal/Tomato-Leaf-Diseases-Detection-/blob/main/Images/model%20accuracy.png)
 
 * Accuracy Loss of model with training images and testing images
+
 ![Loss of model](https://github.com/SagarGuttal/Tomato-Leaf-Diseases-Detection-/blob/main/Images/model%20loss.png)
