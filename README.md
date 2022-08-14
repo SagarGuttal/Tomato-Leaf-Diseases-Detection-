@@ -49,4 +49,14 @@ Three classes are -> **'Tomato_Early_blight', 'Tomato_Late_blight', 'Tomato_heal
 
 ## Convolutional Neural Network
 * A convolution is the simple application of a filter to an input that results in an activation. Repeated application of the same filter to an input results in a map of activations called a feature map, indicating the locations and strength of a detected feature in an input, such as an image.
-* 
+* Using tensorflow API's added the convolutional layers with 16 filters of (3*3) and also added maxpooling layer with "Relu" activation and padding and strides also
+* After that CNN layers added ANN layers.
+* I used "Adam" opimizer for updating the weights of each neurons.
+* Summary of neural network
+
+* After CNN creted load of training images to train the model.
+* After training is done evaluate model using tesing images.
+* Check the model performace.
+
+## Model performance
+*  
