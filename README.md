@@ -58,9 +58,15 @@ Three classes are -> **'Tomato_Early_blight', 'Tomato_Late_blight', 'Tomato_heal
 * I used "Adam" opimizer for updating the weights of each neurons.
 * Summary of neural network
 
+![Summary of CNN](https://github.com/SagarGuttal/Tomato-Leaf-Diseases-Detection-/blob/main/Images/Model%20summary.png)
+
 * After CNN creted load of training images to train the model.
 * After training is done evaluate model using tesing images.
 * Check the model performace.
 
 ## Model performance
-*  
+*  Accuracy of model with training images and testing images
+![Accuracy of model](https://github.com/SagarGuttal/Tomato-Leaf-Diseases-Detection-/blob/main/Images/model%20accuracy.png)
+
+* Accuracy Loss of model with training images and testing images
+![Loss of model](https://github.com/SagarGuttal/Tomato-Leaf-Diseases-Detection-/blob/main/Images/model%20loss.png)
