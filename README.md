@@ -25,8 +25,8 @@
 
 ## Image preprocessing :-
 * All collected images are not as size and pixcel so that preprocessing of images are important.
-* Image dataset contains 4568 images of 3 different classes and these images are loaded it into 32 images for each batch.
-Three classes are -> 'Tomato_Early_blight', 'Tomato_Late_blight', 'Tomato_healthy'.
+* Image dataset contains **4568 images** of 3 different classes and these images are loaded it into 32 images for each batch.
+Three classes are -> **'Tomato_Early_blight', 'Tomato_Late_blight', 'Tomato_healthy'.**
 * Image size ----> **256,256,3,** , Batch_size ----> **32**
 * This step involves processing the  test image in order to bring it to the size, colour and quality of the images  comprising  our  dataset.  This  involves  various  stages  through  which  the  image  goes.  
 * These stages are: 
