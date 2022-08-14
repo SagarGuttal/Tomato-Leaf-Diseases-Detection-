@@ -22,6 +22,10 @@
                                 - Early blight leaf
                                 - Healthy leaf
 * Loaded the image dataset directory to tensorflow using **"tf.keras.preprocessing.image_dataset_from_directory"** API's.
+* sample images
+
+![sample images](https://github.com/SagarGuttal/Tomato-Leaf-Diseases-Detection-/blob/main/Images/Sample%20images%20from%20dataset.png)
+
 
 ## Image preprocessing :-
 * All collected images are not as size and pixcel so that preprocessing of images are important.
