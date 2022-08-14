@@ -21,3 +21,12 @@
                                 - Late blight leaf
                                 - Early blight leaf
                                 - Healthy leaf
+* Loaded the image dataset directory to tensorflow using **"tf.keras.preprocessing.image_dataset_from_directory"** API's.
+
+## Image preprocessing :-
+* All collected images are not as size and pixcel so that preprocessing of images are important 
+* This step involves processing the  test image in order to bring it to the size, colour and quality of the images  comprising  our  dataset.  This  involves  various  stages  through  which  the  image  goes.  
+* These stages are: 
+   1.  Image Resizing:  The dimensions of the image are brought equal to the dimensions of the training images by using  the  „imresize ()‟  method  in  MATLAB. Image resizing  is  a crucial step  as  the pixel values may change if the dimensions of all the training as well as the testing images are not the same. 
+   2.  Image rescaling: The  smoothening of the image renders the pixel values to  gradually  even  out  to  all the points of the image so as to allow  a smooth image. Along with this the image also gets converted from colored to grayscale image using the function „RGB2GRAY ()‟. 
+   3.  3. Noise  Filtering: The noise is the unwanted extras that  are  present in  the  images that make feature determination  and  extraction  difficult.  Thus  the  process  of  noise  filtering  involves  removal  or averaging of the  pixel  values that  add  noise to the  image. The process  used  in our system  to  ensure noise removal is „Median Filter
